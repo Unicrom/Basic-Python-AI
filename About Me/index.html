@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Me</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="header">ABOUT ME</div>
+      <nav id="nav">
+        <div class="nav_contianer" onclick="change_content(0)">
+          <div class="nav_item">Me</div>
+        </div>
+        <div class="nav_contianer" onclick="change_content(1)">
+          <div class="nav_item">Family</div>
+        </div>
+        <div class="nav_contianer" onclick="change_content(2)">
+          <div class="nav_item">Friends</div>
+        </div>
+        <div class="nav_contianer" onclick="change_content(3)">
+          <div class="nav_item">Goals</div>
+        </div>
+        <div class="nav_contianer" onclick="change_content(4)">
+          <div class="nav_item">Hobbies</div>
+        </div>
+        <div class="nav_contianer" onclick="change_content(5)">
+          <div class="nav_item">School</div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="content"></div>
+      <div id="error">404 CONTENT NOT FOUND</div>
+    </main>
+
+    <script src="scripts/contentManager.js"></script>
+  </body>
+</html>

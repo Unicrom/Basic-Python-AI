@@ -1,0 +1,15 @@
+<h1 class="header">Elemntary School</h1>
+<p class="text">
+I grew up as a military child and moved around a lot. This led to me attending many different elemntary schools. Almost 
+going to a different school each year. During my 5th grade year, my dad retired. I have been here in XXX since.
+</p>
+<h1 class="header">Middle School</h1>
+<p class="text">
+For middle school, I went to the XXX. I had a great experience with the teachers and the students. 
+It is a lot different than Niceville, having only 280 student in all grades. It was nice being surronded by peers who wanted 
+to learn just as much as I did.
+</p>
+<h1 class="header">Future</h1>
+<p class="text">
+My dream college is Georgia Tech and I want to get a degree in a computer field. Something like a Computer Science Degree.
+</p>

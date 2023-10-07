@@ -1,0 +1,91 @@
+@font-face {
+  font-family: pixeloid;
+  src: url(pixeloid-font/PixeloidSansBold.ttf);
+}
+:root {
+  /* Colors */
+  --bg_1: #f1f2da;
+  --bg_2: #ff7777;
+  --text_1: #00303b;
+  --text_2: #ffce96;
+  --highlight: #e7af70;
+}
+* {
+  box-sizing: border-box;
+  color: var(--text_1);
+  font-family: pixeloid;
+  text-decoration: none;
+  user-select: none;
+}
+body {
+  background: #fff;
+  margin: 0;
+}
+header {
+  height: 20%;
+  background-color: var(--bg_2);
+}
+nav {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  position: static;
+}
+nav .nav_contianer {
+  width: calc(100% / 6);
+  height: 100%;
+}
+.nav_item {
+  height: 100%;
+  text-align: center;
+  font-size: 2.5vw;
+  padding: 0.5vw;
+  background: var(--text_2);
+  color: var(--text_1);
+}
+.nav_item:hover {
+  background: var(--highlight);
+  color: var(--text_1);
+  cursor: pointer;
+}
+.active {
+  background: var(--highlight);
+  color: var(--text_1);
+  cursor: default !important;
+}
+#header {
+  font-size: 5vw;
+  color: var(--bg_1);
+  text-align: center;
+  height: 60%;
+}
+
+main {
+  background: var(--bg_1);
+  width: 100%;
+  max-height: 80%;
+  height: 80%;
+  border: 1vw solid var(--highlight);
+  overflow: auto;
+  padding: 1vw;
+}
+#error {
+  font-size: 5vw;
+  text-align: center;
+  display: none;
+  margin-top: 8vw;
+}
+#content {
+  padding: 1vw;
+  margin-top: -2vw;
+}
+.header {
+  font-size: 3vw;
+  margin-bottom: -1vw;
+}
+.text {
+  font-size: 2rem;
+}
+li {
+  font-size: 2.5vw;
+}
