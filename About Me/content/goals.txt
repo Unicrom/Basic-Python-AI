@@ -1,7 +1,0 @@
-<h1 class="header">Goals</h1>
-<ul>
-<li>Go To Georgia Tech</li>
-<li>Run Sub 19 Minute 5k</li>
-<li>Gradute With High GPA</li>
-<li>Get an Internship</li>
-</ul>

@@ -88,6 +88,18 @@ class AI:
 # Think of this as the teacher of all of the AI made to learn or something
 # Use an extension to return points and change the setting to generational, 1v1, or learning
 class AIHandler:
+    def __init__(self) -> None:
+            print('-------------------------------------------------------------')
+            print('Make an handler using "ai123 (or whatever name) = AIHandler(name, size, mode, AIsteps)"')
+            print('Size is the size of AI. Mode can be "l", "g", or "v", which is learning, generational, or 1v1')
+            print('AIsteps is the neural strusture of the AI, or you can read from file with replacing as [r, file, starting number, next numbers')
+            print('Function Handler List:')
+            print('Display: Displays the AI. One paramater, set it to "one" for one AI example, "all" for all.')
+            print('Record: Records the classroom. One parametar, set it to the recording file. Overwrites the file.')
+            print('Try: Test the AI. Two Parameters, set firse to the AI in the list you want to test, set the second to the ID.')
+            print('Simulate: Actually does the AI thing. Following paramaters: (# of sessions [-1 for infinite, space to stop], ')
+            print('speed of learning, extention ID) There, have fun using this!')
+            print('-------------------------------------------------------------')
     def Initialize(self, name, size, mode, AIsteps): # AIsteps == ['r', file name, starting AI, next AIs] means read file.
         # sourcery skip: extract-duplicate-method
         self.name = name
@@ -281,14 +293,17 @@ class AIHandler:
         self.classroom = newclassroom
         
 # AI Instrucions
-print('-------------------------------------------------------------')
-print('Make an handler using "ai123 (or whatever name) = AIHandler(name, size, mode, AIsteps)"')
-print('Size is the size of AI. Mode can be "l", "g", or "v", which is learning, generational, or 1v1')
-print('AIsteps is the neural strusture of the AI, or you can read from file with replacing as [r, file, starting number, next numbers')
-print('Function Handler List:')
-print('Display: Displays the AI. One paramater, set it to "one" for one AI example, "all" for all.')
-print('Record: Records the classroom. One parametar, set it to the recording file. Overwrites the file.')
-print('Try: Test the AI. Two Parameters, set firse to the AI in the list you want to test, set the second to the ID.')
-print('Simulate: Actually does the AI thing. Following paramaters: (# of sessions [-1 for infinite, space to stop], ')
-print('speed of learning, extention ID) There, have fun using this!')
-print('-------------------------------------------------------------')
+def instructions():
+    print('-------------------------------------------------------------')
+    print('Make an handler using "ai123 (or whatever name) = AIHandler(name, size, mode, AIsteps)"')
+    print('Size is the size of AI. Mode can be "l", "g", or "v", which is learning, generational, or 1v1')
+    print('AIsteps is the neural strusture of the AI, or you can read from file with replacing as [r, file, starting number, next numbers')
+    print('Function Handler List:')
+    print('Display: Displays the AI. One paramater, set it to "one" for one AI example, "all" for all.')
+    print('Record: Records the classroom. One parametar, set it to the recording file. Overwrites the file.')
+    print('Try: Test the AI. Two Parameters, set firse to the AI in the list you want to test, set the second to the ID.')
+    print('Simulate: Actually does the AI thing. Following paramaters: (# of sessions [-1 for infinite, space to stop], ')
+    print('speed of learning, extention ID) There, have fun using this!')
+    print('-------------------------------------------------------------')
+if __name__ == '__main__':
+    instructions()

@@ -1,8 +1,0 @@
-<h1 class="header">Coding</h1>
-<p class="text">I have always enjoyed coding. I started coding with Scratch in 3rd grade and I was instantly hooked. I just love the problem solving and creative 
-freedom coding gives you. It is always so satisfying after solving a bug or getting around a problem that stopping you from your goal.</p>
-<h1 class="header">Gaming</h1>
-<p class="text">I love gaming, and have played video games since I started elemntary school. I enjoy playing Minecraft, Valorant and different dungeon crawlers.</p>
-<h1 class="header">Piano</h1>
-<p class="text">I have been taking piano for 6 years. Each year I participate in the Choctaw Bay Music Club Sonatina Spectacular, National Federation of Music Clubs Music Festival, and the National Paino Playing Auditions Piano Guild.</p>
-

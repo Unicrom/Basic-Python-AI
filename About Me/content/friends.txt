@@ -1,5 +1,0 @@
-<h1 class="header">Friends</h1>
-<p class="text">
-I enjoy playing games with my friends online. We play many different games and this allows us to stay in touch with each other. After I left XXX, most of my friends 
-went to XXX instead of XXX, but I have been able to keep in contanct and play with them online.
-</p>

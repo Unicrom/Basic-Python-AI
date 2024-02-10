@@ -1,6 +1,0 @@
-<h1 class="header">Me</h1>
-<p class="text">
-My name is XXX, and I was born in XXX, XXX. I grew up
-as a military child. I am running Cross Country for XXX as an
-extracurricular activity. I also play the piano.
-</p>
